@@ -1,0 +1,31 @@
+# 构建产物
+*.o
+*.d
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.crf
+*.iex
+
+# Keil工程临时文件
+*.uvguix.*
+*.uvoptx
+*.sct
+*.scvd
+*.dbgconf
+JLinkLog.txt
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 编译输出目录
+Objects/
+Listings/
+DebugConfig/
+build/
